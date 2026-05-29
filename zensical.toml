@@ -32,6 +32,7 @@ nav = [
   },
   { "Allocations" = [
       "allocation/stocks-bonds.md",
+      "allocation/rebalance.md",
     ]
   },
   { "USF" = [
