@@ -1,0 +1,182 @@
+[project]
+
+site_name = "thoughts on finance"
+
+site_description = "thoughts on finance"
+
+site_author = "Kevin M. Counts"
+
+copyright = """
+DISCLAIMER: Neither this website nor any content is intended to provide personal tax or financial advice. This information is intended to be used and must be used for information purposes only. We are not investment or tax advisors, and this should not be considered advice. It is very important to do your own analysis before making any investment or employing any tax strategy. You should consider your own personal circumstances and speak with professional advisors before making any investment. The information we present is based on our own research and opinions. We believe the information presented herein to be true and accurate at the time of publication but do not guarantee the accuracy of every statement, nor guarantee that the information will not change in the future.
+"""
+
+# --------------------------------------------------------------------------------------------------
+# Read more: https://zensical.org/docs/setup/navigation/
+# --------------------------------------------------------------------------------------------------
+
+nav = [
+  { "Home" = "index.md" },
+  { "Indexes" = [
+      "index/us-stock.md",
+      "index/int-stock.md",
+      "index/us-bond.md",
+      "index/world-stock.md",
+      "index/int-bond.md",
+    ]
+  },
+  { "Portfolios" = [
+      "portfolio/three-fund.md",
+      "portfolio/two-fund.md",
+      "portfolio/all-in-one.md",
+    ]
+  },
+  { "Allocations" = [
+      "allocation/stocks-bonds.md",
+    ]
+  },
+  { "USF" = [
+      "usf/overview.md",
+      "usf/susorp.md",
+    ]
+  },
+  { "Misc" = [
+      "misc/links.md",
+      "misc/quotes.md",
+    ]
+  },
+]
+
+# --------------------------------------------------------------------------------------------------
+# css/js includes
+# --------------------------------------------------------------------------------------------------
+
+extra_css = ["_ext/css/extra.css"]            # Read more: https://zensical.org/docs/customization/#additional-css
+# extra_javascript = ["javascripts/extra.js"] # https://zensical.org/docs/customization/#additional-javascript
+
+# ----------------------------------------------------------------------------
+# Section for configuring theme options
+# ----------------------------------------------------------------------------
+
+[project.theme]
+
+# change this to "classic" to use the traditional Material for MkDocs look.
+
+variant = "classic"
+
+# https://zensical.org/docs/customization/#extending-the-theme
+
+# custom_dir = "overrides"
+
+# favicon = "images/favicon.png"
+
+language = "en"
+
+features = [
+    "announce.dismiss",              # https://zensical.org/docs/setup/header/#announcement-bar
+    "content.code.annotate",         # https://zensical.org/docs/authoring/code-blocks/#code-annotations
+    "content.code.copy",             # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
+    "content.code.select",           # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
+    "content.footnote.tooltips",     # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
+    "content.tabs.link",             # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
+    "content.tooltips",              # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
+    "navigation.expand",             # https://zensical.org/docs/setup/navigation/#navigation-expansion
+    "navigation.footer",             # https://zensical.org/docs/setup/footer/#navigation
+    "navigation.indexes",            # https://zensical.org/docs/setup/navigation/#section-index-pages
+    "navigation.instant",            # https://zensical.org/docs/setup/navigation/#instant-navigation
+    "navigation.instant.prefetch",   # https://zensical.org/docs/setup/navigation/#instant-prefetching
+    "navigation.path",               # https://zensical.org/docs/setup/navigation/#navigation-path
+    "navigation.top",                # https://zensical.org/docs/setup/navigation/#back-to-top-button
+    "navigation.tracking",           # https://zensical.org/docs/setup/navigation/#anchor-tracking
+    "search.highlight",              # https://zensical.org/docs/setup/search/#search-highlighting
+
+    # "content.action.edit",         # https://zensical.org/docs/setup/repository/#content-actions
+    # "content.action.view",         # https://zensical.org/docs/setup/repository/#content-actions
+    # "header.autohide",             # https://zensical.org/docs/setup/header/#automatic-hiding
+    # "navigation.instant.progress", # https://zensical.org/docs/setup/navigation/#progress-indicator
+    # "navigation.prune",            # https://zensical.org/docs/setup/navigation/#navigation-pruning
+    # "navigation.sections",         # https://zensical.org/docs/setup/navigation/#navigation-sections
+    # "navigation.tabs",             # https://zensical.org/docs/setup/navigation/#navigation-tabs
+    # "navigation.tabs.sticky",      # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
+    # "toc.follow",                  # https://zensical.org/docs/setup/navigation/#anchor-following
+    # "toc.integrate",               # https://zensical.org/docs/setup/navigation/#navigation-integration
+
+]
+
+# ----------------------------------------------------------------------------
+# https://zensical.org/docs/setup/colors/
+# ----------------------------------------------------------------------------
+
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+[project.extra]
+generator = false
+
+# ----------------------------------------------------------------------------
+# In this section you can configure the Markdown extensions that are used when
+# rendering your documentation. We enable the most useful extensions by default,
+# but you can customize this list to your needs.
+#
+# Read more:
+# - https://zensical.org/docs/setup/extensions/
+# ----------------------------------------------------------------------------
+
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+
+[project.markdown_extensions.toc]
+
+permalink = true
+
+[project.markdown_extensions.pymdownx.arithmatex]
+
+generic = true
+
+[project.markdown_extensions.pymdownx.betterem]
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+
+[project.markdown_extensions.pymdownx.emoji]
+
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+
+[project.markdown_extensions.pymdownx.highlight]
+
+anchor_linenums = true
+line_spans = "__span"
+pygments_lang_class = true
+
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.magiclink]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+
+[project.markdown_extensions.pymdownx.superfences]
+
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+
+[project.markdown_extensions.pymdownx.tabbed]
+
+alternate_style = true
+combine_header_slug = true
+
+[project.markdown_extensions.pymdownx.tasklist]
+
+custom_checkbox = true
+
+[project.markdown_extensions.pymdownx.tilde]
