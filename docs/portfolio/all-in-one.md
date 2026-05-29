@@ -1,9 +1,11 @@
 # All-in-one
 
 An "all-in-one" fund is a single investment vehicle that automatically builds a broadly diversified portfolio of stocks and bonds.
-It handles automatic rebalancing and diversification for you, making it ideal for hands-off or beginner investors
-All-in-one funds are usually classified as either Target Date or Target Allocation.
+It handles automatic rebalancing and diversification for you, making it ideal for hands-off or beginner investors.
 
+All-in-one funds are usually classified as either [Target Date](#target-date) or [Target Allocation](#target-allocation).
+
+They typically consist of the following asset classes:
 
 - [Total Stock Market](../index/us-stock/#total-stock-market) Index
 - [Total International Stock Market](../index/int-stock/#total-international-stock-market) Index

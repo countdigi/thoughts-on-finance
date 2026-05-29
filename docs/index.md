@@ -13,8 +13,8 @@ They prioritize steady, long-term wealth building over trying to "beat the marke
 
 The core Boglehead philosophy can be summarized in 5 key points:
 
-1. **Keep Costs Low**: Bogleheads believe that fees are an active drag on long-term returns. By minimizing expense ratios and transaction costs, you get to keep more of your investment gains.
-1. **Invest in Index Funds**: Instead of trying to pick individual winning stocks, you "buy the haystack." Broad-market index funds and ETFs provide instant diversification with minimal effort.
+1. **Keep Costs Low**: Minimize expense ratios and transaction costs to keep more of your investment gains.
+1. **Invest in Index Funds**: Instead of picking individual stocks, you "buy the haystack." Broad-market index funds provide instant diversification with minimal effort.
 1. **Broad Diversification**: A well-balanced portfolio spreads risk across thousands of different stocks and bonds to protect against catastrophic losses in any single company or sector.
-1. **Never Time the Market**: Rather than guessing when to buy and sell, the strategy emphasizes investing early and often, regardless of market volatility.
-1. **Stay the Course**: The ultimate rule of the Boglehead is discipline. Create a workable plan based on your risk tolerance, automate your contributions, and hold your investments through both bull and bear markets
+1. **Never Time the Market**: Rather than guessing when to buy and sell, invest early and often, regardless of market volatility.
+1. **Stay the Course**: Create a workable plan based on your risk tolerance, automate your contributions, and hold your investments through both bull and bear markets

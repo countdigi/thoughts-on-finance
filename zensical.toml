@@ -32,11 +32,19 @@ nav = [
   },
   { "Allocations" = [
       "allocation/stocks-bonds.md",
+      "allocation/rebalance.md",
     ]
   },
   { "USF" = [
       "usf/overview.md",
       "usf/susorp.md",
+      "usf/frs-inv.md",
+      "usf/vol-403b.md",
+      "usf/vol-457b.md",
+    ]
+  },
+  { "IRS" = [
+    "irs/2026.md",
     ]
   },
   { "Misc" = [

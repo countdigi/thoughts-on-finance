@@ -9,12 +9,15 @@ They provide employees the opportunity to participate in different [retirement a
 Faculty and Administration employees may participate in one of the three Florida Retirement System (FRS) retirement plans:
 
 - FRS Pension Plan
-- FRS Investment Plan
-- [State University Optional Retirement Program (SUSORP)](../usf/susorp)
+- [FRS Investment Plan](../usf/frs-inv)
+- [State University Optional Retirement Program (SUSORP)](../usf/susorp)<br/>
+  (*Employees appointed to a Faculty position in the College of Medicine are required to participate in the SUSORP*)
+
+
 
 ## Voluntary Retirement Plans
 
 Optionally, employees may participate in two additional voluntary retirement plans:
 
-- 403b Voluntary Retirement
-- 457b Voluntary Deferred Compensation
+- [403b Voluntary Retirement](../usf/vol-403b.md)
+- [457b Voluntary Deferred Compensation](../usf/vol-457b.md)
