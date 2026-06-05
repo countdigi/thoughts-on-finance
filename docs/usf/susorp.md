@@ -1,31 +1,20 @@
 # SUSORP
 
-The State University System Optional Retirement Program ([SUSORP](https://www.usf.edu/hr/benefits/retirement/orp.aspx)) is available to Administration and Faculty employees. The SUSORP is a 403b defined contribution plan sponsored by the State of Florida.
+The State University System Optional Retirement Program ([SUSORP](https://www.usf.edu/hr/benefits/retirement/orp.aspx)) is available to Administration and Faculty employees. Staff are not eligible for the SUSORP.
+
+**Note:** Employees appointed to a Faculty position in the College of Medicine are required to participate in the SUSORP.
 
 ## Contributions
 
-- Employer (USF): 5.14%
-- Employee: 3.00% (required) + 5.14% (optional) = 8.14%
+Required
 
-## IRS Limits
+- Employer Funded Contribution: 5.14%
+- Employee Mandatory Contribution: 3.00%
 
-### 2026 403b
+Optional
 
-- 24,500 + (8,000 catch-up if 50 or older in 2026) = 32,500
-
-Therefore, one can also contribute to a [voluntary 403b](https://www.usf.edu/hr/benefits/retirement/voluntary-retirement.aspx) in addition to the SUSORP account.
-
-Additional imits with this formula:
-
-- age &lt; 50: 24,500 - (salary * 8.14%)
-- age &ge; 50: 32,500 - (salary * 8.14%)
-
-E.g.:
-
-- age &lt; 50: 24,500 - (100,000 * 8.14%) = 16,360 remaining to contribute to voluntary 403b
-- age &ge; 50: 32,500 - (150,000 * 8.14%) = 20,290 (12,290 + 8,000 catch-up) remaining to contribute to voluntary 403b
-
-*Note: If you are age 50 or older and earned 150,000 or more in the prior year (Box-3 on your 2025 W-2), any catch-up contributions to your workplace retirement plan must be made as a Roth contribution using after-tax dollars. The custodian should automatically track this in the account. When you eventually rollover your account, the pre-tax will go to an IRA and the Roth dollars will go to a Roth-IRA.*
+- Employee Voluntary Contribution: up to 5.14%<br/>
+  **Note:**: this contribution plus [Voluntary 403b](../usf/vol-403b) contributions share the [IRS 403b Limit](../irs/2026).
 
 ## Custodians
 
